@@ -1,6 +1,4 @@
-def main90:
-    pass
+from app import app
 
-
-if __main__ ='__main__':
-    main()
+if __name__ == '__main__':
+    app.run(debug=True)
