@@ -12,4 +12,4 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(60), nullable=False)
 
     def __repr__(selfs):
-        return f'User: {self.name}, email: {self.mail}'
+        return f'User: {self.username}, email: {self.mail}'
